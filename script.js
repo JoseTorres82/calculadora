@@ -26,3 +26,7 @@ const footer = document.getElementById('footer');
 const h2 = document.createElement('h2');
 h2.innerText = 'Made with ☕ by </José Torres>';
 footer.appendChild(h2);
+const div = document.createElement('div')
+div.classList.add('social-media');
+footer.appendChild(div);
+

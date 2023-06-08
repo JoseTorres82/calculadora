@@ -1,6 +1,6 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.6;
@@ -9,9 +9,11 @@
     font-weight: 700;
     text-align: center;
 }
+
 body {
     background-color: black;
 }
+
 .main-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -20,7 +22,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.calculadora{
+
+.calculadora {
     max-width: 318px;
     margin: 0 auto;
     translate: calc(50% 50%);
@@ -32,14 +35,16 @@ body {
     border-radius: 8px;
     margin-top: 50px;
 }
-.display-screen{
+
+.display-screen {
     width: 100%;
     height: 80px;
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-#display{
+
+#display {
     margin: 0 auto;
     width: 90%;
     height: 100%;
@@ -74,6 +79,7 @@ body {
     margin: 5px;
     transition: .2s;
 }
+
 .btn-number {
     width: 40px;
     height: 40px;
@@ -84,6 +90,7 @@ body {
     margin: 5px;
     transition: .2s;
 }
+
 .btn-equal {
     width: 40px;
     height: 100px;
@@ -93,29 +100,42 @@ body {
     transition: .2s;
 }
 
-#clear, .divi, .backspace, #x, .rest, #point, #d0, .mas{
+#clear,
+.divi,
+.backspace,
+#x,
+.rest,
+#point,
+#d0,
+.mas {
     background-color: rgb(223, 223, 72);
-    
+
 }
-.btn-operator{
+
+.btn-operator {
     background-color: rgb(223, 223, 72);
 }
+
 .btn-operator:hover {
     background-color: rgb(97, 121, 13);
     transform: scale(1.1);
 }
+
 #point:hover {
     background-color: rgb(97, 121, 13);
     transform: scale(1.1);
 }
+
 #d0:hover {
     background-color: rgb(97, 121, 13);
     transform: scale(1.1);
 }
-.btn-number:hover{
+
+.btn-number:hover {
     background-color: cadetblue;
     transform: scale(1.1);
 }
+
 .logos-icons {
     display: inline-block;
     width: 318px;
@@ -125,16 +145,32 @@ body {
     gap: 5px;
 }
 
-.btn-equal:hover{
+.btn-equal:hover {
     background-color: rgb(116, 5, 27);
     transform: scale(1.1);
 }
 
 #footer {
+    max-width: 1200px;
+    margin: 0 auto;
     width: 100%;
     height: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: rgb(119, 0, 24);
+}
+.social-media {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.social-media a{
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: #f5f5f5;
+}
+.social-media a:hover {
+    transform: scale(1.1);
 }
